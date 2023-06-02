@@ -21,7 +21,7 @@ public class Boss : MonoBehaviour
 
     public Transform BossFirePos21; // 포탄 공격 지점(패턴2)
     public Transform BossFirePos22; // 포탄 공격 지점(패턴2)
-    public GameObject WinPannel;
+    public GameObject WinPannel; // 게임 승리 시 출력되는 패널
 
     public AudioClip BossfireSfx; // 패턴1 공격 소리
     public AudioClip Bossfire2Sfx; // 패턴2 공격 소리
@@ -31,7 +31,8 @@ public class Boss : MonoBehaviour
     public GameObject MiniRobot2;
     public GameObject MiniRobot3;
     public GameObject MiniRobot4;
-    public int BossHP; 
+
+    public int BossHP
     {
         get { return BossCurrentHP; }
         set

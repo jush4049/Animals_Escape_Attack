@@ -6,7 +6,8 @@ Unity 3D 기반 모바일 FPS 게임 개발
 
 개발 환경 : Unity 3.41f
 
-빌드 플랫폼 : Moblie (Android)
+빌드 플랫폼 : Android
+
 개발 인원 : 1인 개발
 
 개발 내용

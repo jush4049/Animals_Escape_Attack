@@ -12,9 +12,9 @@ Unity 3D 기반 모바일 FPS 게임 개발
 
 개발 내용
 
-- 모바일 환경의 조이스틱 기능 적용
+- IDragHandler 등을 모바일 환경의 조이스틱 기능 적용
 
-- Rigidbody, Transform 등을 활용한 FPS 게임 로직 개발
+- Rigidbody, Coroutine 등을 활용한 FPS 게임 로직 개발
 
 - NavMash 기능을 활용한 AI 추적 기능 개발
 

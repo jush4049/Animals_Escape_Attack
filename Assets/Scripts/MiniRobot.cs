@@ -64,9 +64,9 @@ public class MiniRobot : MonoBehaviour
     
     IEnumerator MiniRobotFire()
     {
-            /*MRAudioSource.PlayOneShot(MRfireSfx, 5.0f);*/
-            Instantiate(MRBullet, MRFirePos.transform.position, MRFirePos.transform.rotation);
-            Debug.Log("미니로봇 포탄 발사(1초마다)");
-            yield return new WaitForSeconds(1f);
+        /*MRAudioSource.PlayOneShot(MRfireSfx, 5.0f);*/
+        Instantiate(MRBullet, MRFirePos.transform.position, MRFirePos.transform.rotation);
+        Debug.Log("미니로봇 포탄 발사(1초마다)");
+        yield return new WaitForSeconds(1f);
     }
 }

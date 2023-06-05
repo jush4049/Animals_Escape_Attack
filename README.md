@@ -16,7 +16,7 @@ Unity 3D 기반 모바일 FPS 게임 개발
 
 - Rigidbody, Coroutine 등을 활용한 FPS 게임 로직 구현
 
-- Translate, Vector3 등을 활용한 3인칭 시점의 캐릭터 및 카메라 이동 구현
+- Translate, Vector3 등을 활용한 1인칭 시점의 캐릭터 및 카메라 이동 구현
 
 - NavMash 기능을 활용한 AI 추적 기능 구현
 

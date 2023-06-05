@@ -131,9 +131,9 @@ public class PlayerHit : MonoBehaviour
 
     public IEnumerator HPinfo()
     {
-            InfoText.text = "캐릭터가 위험합니다! 조심하세요";
-            yield return new WaitForSeconds(5.0f);
-            InfoText.text = "";
+        InfoText.text = "캐릭터가 위험합니다! 조심하세요";
+        yield return new WaitForSeconds(5.0f);
+        InfoText.text = "";
     }
 
     public IEnumerator Keyinfo()

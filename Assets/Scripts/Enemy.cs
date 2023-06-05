@@ -5,12 +5,6 @@ using UnityEngine;
 using UnityEngine.AI;
 using UnityEngine.UI;
 
-//요원(agent=enemy)에게 목적지를 알려줘서 목적지로 이동하게 한다.
-//상태를 만들어서 제어하고 싶다.
-// Idle : Player를 찾는다, 찾았으면 Run상태로 전이하고 싶다.
-//Run : 타겟방향으로 이동(요원)
-//Attack : 일정 시간마다 공격
-
 public class Enemy : MonoBehaviour
 {
 
@@ -145,8 +139,6 @@ public class Enemy : MonoBehaviour
             state = State.Shoot;
             anim.SetTrigger("Shoot");
             //Debug.Log("발사중");
-            //Debug.Log("발사중");
-
         }
 
         //요원에게 목적지를 알려준다.
@@ -167,16 +159,6 @@ public class Enemy : MonoBehaviour
     private void UpdateIdle()   
     {
         agent.speed = 0;
-        /*//생성될때 목적지(Player)를 찿는다.
-        target = GameObject.Find("Player").transform;
-        //target을 찾으면 Run상태로 전이하고 싶다.
-        if (target != null)
-        {
-            state = State.Run;
-            //이렇게 state값을 바꿨다고 animation까지 바뀔까? no! 동기화를 해줘야한다.
-            anim.SetTrigger("Run");
-            
-        }*/
         float distance = Vector3.Distance(transform.position, target.transform.position);
         if (distance <= 30)
         {

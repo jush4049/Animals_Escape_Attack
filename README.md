@@ -12,13 +12,15 @@ Unity 3D 기반 모바일 FPS 게임 개발
 
 개발 내용
 
-- IDragHandler 등을 모바일 환경의 조이스틱 기능 적용
+- IDragHandler, IPointerDownHandler 등을 활용하여 모바일 환경의 조이스틱 기능 적용
 
-- Rigidbody, Coroutine 등을 활용한 FPS 게임 로직 개발
+- Rigidbody, Coroutine 등을 활용한 FPS 게임 로직 구현
 
-- NavMash 기능을 활용한 AI 추적 기능 개발
+- 3인칭 시점의 캐릭터 및 카메라 이동 구현
 
-- 적군 오브젝트 및 보스전 패턴 설계 및 구현
+- NavMash 기능을 활용한 AI 추적 기능 구현
+
+- 간략한 스토리 구상 및 게임 레벨 디자인 기획
 
 - UGUI 활용 UI 배치 및 디자인 구현
 
